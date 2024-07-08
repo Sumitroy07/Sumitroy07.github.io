@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 100%;
+            height: 100vh;
+            border: 1px solid black;
+            /* background: url(https://th.bing.com/th/id/OIP.EKih4rU3rhUjdQTXZw1ZUgHaLH?rs=1&pid=ImgDetMain);
+            background-size: cover;
+            background-position: center; */
+            background-image: url(https://th.bing.com/th/id/OIP.EKih4rU3rhUjdQTXZw1ZUgHaLH?rs=1&pid=ImgDetMain);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .sumit{
+            width: 300px;
+            height: 350px;
+            /* margin: 150px auto; */
+            background: rgba(255, 255, 255, 0.247);
+            padding: 50px;
+            box-sizing: border-box;
+            backdrop-filter: blur(3px);
+            border-radius: 3px;
+
+            
+        }
+        
+        .photo{
+        display: flex;
+        height: 80px;
+        width: 80px;
+        /* border-radius: 50%; */
+        /* overflow: hidden; */
+        padding: 10px;
+        margin: 5px auto ;
+        }
+       .photo img{
+            width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: top;
+        }
+        .input-box{
+            text-align: center;
+        }
+        .input-box input{
+            /* text-align: center; */
+            margin: 5px auto;
+            background:transparent;
+            border: 1px solid white;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            color: white;
+            /* border-bottom: 1px solid white; */
+          
+        }
+        .input-box input::placeholder{
+            /* text-align: center; */
+       color: white;
+          
+        }
+        .input-box button{
+            width: 80px;
+            /* height: 25px; */
+            padding: 5px;
+            background-color: red;
+            border: none;
+            margin-top: 15px;
+            border-radius: 5px;
+            color: white;
+            font-size: 17px;
+            
+        }
+        .sam{
+            text-align: center;
+            margin-top: 5px;
+        }
+        .sam a{
+            /* text-align: center; */
+            color: white;
+
+        }
+        @media screen and (max-width:375px) {
+            .box{
+                width: 100%;
+            }
+            .sumit{
+                width: 90%;
+                padding: 30px;
+
+            }
+            .input-box input{
+                width: 100%;
+            }
+            .input-box button{
+                width: 100%;
+                /* padding: 0; */
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="sumit">
+            <div class="photo">
+                <img src="gojo.jpg" alt="">
+            </div>
+            <div class="input-box">
+                <form action="#">
+                    <input type="Text" placeholder="Sumit">
+                    <input type="text">
+                 <div>
+                    <button>sign</button>
+                 </div>
+                </form>
+            </div>
+            <div class="sam">
+                <a href="https://www.google.com/?hl=chrome">Forgot Password</a>
+            </div>
+        
+        </div>
+        
+       
+    </div>
+    
+    
+    
+</body>
+</html>

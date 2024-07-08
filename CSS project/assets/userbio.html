@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgba(230, 223, 223, 0.986);
+    }
+
+    .index {
+      width: 350px;
+      border: 1px solid white;
+      background-color: white;
+      margin: 50px auto;
+      border-radius: 20px;
+      padding: 20px;
+      box-sizing: border-box;
+
+    }
+
+    .sumit {
+      width: 80px;
+      height: 80px;
+      /* border: 1px solid yellow; */
+      border-radius: 50%;
+      /* margin-left: 175px; */
+      margin: 30px auto;
+      /* background-image:; */
+      overflow: hidden;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      /* border-radius: 50%; */
+      object-fit: cover;
+      object-position: top;
+    }
+
+    .fly {
+      /* margin: 5px auto; */
+      text-align: center;
+    }
+
+    .fly button {
+      /* margin-bottom: 5px; */
+      background-color: rgba(133, 233, 233, 0.993);
+      border-radius: 5px;
+      border: none;
+      width: 45px;
+      height: 15px;
+    }
+
+
+
+    .gojo {
+      text-align: center;
+      font-size: 10px;
+      font-family: sans-serif;
+      margin-top: 10px;
+    }
+
+    .saturo {
+      color: rgb(50, 39, 112);
+    }
+
+    .sami {
+      font-size: 12px;
+      margin-top: 10PX;
+      font-family: sans-serif;
+    }
+
+    .sam {
+      color: rgba(128, 128, 128, 0.507);
+      font-size: 12px;
+      padding: 10px;
+      margin-top: 5px;
+    }
+
+    .inputbox {
+      text-align: center;
+      margin-top: 5px;
+
+
+    }
+
+    .inputbox i {
+      margin-left: 7px;
+    }
+
+    .sukuna {
+      text-align: center;
+
+    }
+
+    .btn1 {
+      width: 140px;
+      height: 40px;
+      margin-right: 10px;
+      margin-top: 15px;
+      color: rgb(50, 39, 112)white;
+      border-radius: 15px;
+      border: none;
+
+
+    }
+
+    .btn2 {
+      width: 140px;
+      height: 40px;
+      margin-left: 10px;
+      margin-top: 15px;
+      background-color: rgb(50, 39, 112);
+      color: antiquewhite;
+      border-radius: 15px;
+      border: none;
+
+    }
+
+    .index2 {
+      width: 350px;
+      /* height: 500px; */
+      border: 1px solid white;
+      background-color: white;
+      margin: 15PX auto;
+      border-radius: 20px;
+      padding: 20px;
+      box-sizing: border-box;
+
+    }
+
+    .picture {
+      width: 80px;
+      height: 80px;
+      /* border: 1px solid yellow; */
+      border-radius: 50%;
+      /* margin-left: 175px; */
+      /* background-image:; */
+      overflow: hidden;
+    }
+
+    .bio p {
+      font-size: small;
+
+    }
+
+    .first-box {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+   
+
+    .piro {
+      margin-top: 10px;
+      font-size: 25px;
+      font-family: sans-serif;
+      color: rgb(50, 39, 112);
+    }
+
+    .about {
+      margin-top: 10px;
+      font-size: 25px;
+      font-family: sans-serif;
+      color: rgb(50, 39, 112);
+    }
+
+    .tonde {
+      color: rgba(128, 128, 128, 0.507);
+      font-family: sans-serif;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .biobox{
+      display: flex;
+      gap: 20px;
+    }
+
+    @media screen and (max-width:375px) {
+      .index {
+        width: 100%;
+      }
+
+      .index2 {
+        width: 100%;
+      }
+
+      .sukuna .btn2 {
+        margin-right: 20px;
+      }
+      
+      .first-box{
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="index">
+    <h1 class="sumit"><img src="gojo.jpg" alt=""></h1>
+    <div class="fly">
+      <button>PRO</button>
+    </div>
+    <div class="gojo">
+      <h1 class="saturo">Gojo Satoru</h1>
+      <p class="sami">UI / UX designer</p>
+      <p class="sam">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quia, facilis eum repellendus at
+        saepe!</p>
+    </div>
+    <div class="inputbox">
+      <i class="fa-solid fa-basketball"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-behance"></i>
+    </div>
+    <div class="sukuna">
+      <button class="btn1">Messages</button>
+      <button class="btn2">Connect</button>
+    </div>
+  </div>
+
+
+  <div class="index2">
+    <div class="first-box">
+      <div class="picture "><img src="gojo.jpg" alt=""></div>
+     <div class="biobox">
+      <div class="bio">
+        <p>Post</p>
+        <h5>23</p>
+
+      </div>
+      <div class="bio">
+        <p>Followers</p>
+        <h5>326</h5>
+
+      </div>
+      <div class="bio">
+        <p>Following</p>
+        <h5>120</h5>
+
+      </div>
+     </div>
+    </div>
+    <div>
+      <h1 class="piro">Gojo Saturo</h1>
+      <p class="sami">UI / UX Designer</p>
+      <h1 class="about">About</h1>
+      <p class="tonde">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt saepe amet perferendis dolorem
+        eum, rerum doloremque corporis. Nostrum, delectus a dolorum obcaecati itaque architecto minus earum laborum
+        voluptatum, recusandae eum.25</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
