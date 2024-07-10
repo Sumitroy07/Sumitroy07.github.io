@@ -644,7 +644,7 @@ background-color: rgb(0, 0, 0);
     height: 100%;
     /* mix-blend-mode: ; */
     /* border: 2px solid red; */
-    filter: brightness(40%) ;
+    filter: brightness(90%) ;
     transform: rotateY(180deg);
     /* position: absolute; */
     /* top: 5px; */
